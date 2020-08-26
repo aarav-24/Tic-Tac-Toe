@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <center>
+    <h1>TIC TAC TOE</h1>
+    <hr>
+    <table>
+        <tr>
+            <td><button onclick="draw('btn1')" class="btn1 bt"></button></td>
+            
+            <td><button onclick="draw('btn2')" class="btn2 bt"></button></td>
+            
+            <td><button onclick="draw('btn3')" class="btn3 bt"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="draw('btn4')" class="btn4 bt"></button></td>
+            
+            <td><button onclick="draw('btn5')" class="btn5 bt"></button></td>
+            
+            <td><button onclick="draw('btn6')" class="btn6 bt"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="draw('btn7')" class="btn7 bt"></button></td>
+            
+            <td><button onclick="draw('btn8')" class="btn8 bt"></button></td>
+            
+            <td><button onclick="draw('btn9')" class="btn9 bt"></button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <button id="reset" onclick="reset('bt')">Reset</button>
+    <div id="result"></div>
+</center>
+</body>
+</html>

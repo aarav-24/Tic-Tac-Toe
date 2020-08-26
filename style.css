@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+h1{
+    background-color: black;
+    font-size: 55px;
+    color: rgb(0, 255, 55);
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 55px;
+    background-color:rgb(251, 255, 0);
+}
+table{
+    margin-top: 90px;
+    border-collapse: collapse;
+}
+#reset{
+    height: 50px;
+    width: 150px;
+    font-size: 40px;
+    background-color: rgb(8, 250, 28);
+}
+#result{
+    height: 80px;
+    width: 400px;
+    border: 3px black solid;
+    background-color: #b2ebf2;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
